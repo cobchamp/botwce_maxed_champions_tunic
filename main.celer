@@ -4,8 +4,8 @@ _project:
     - CobChamp
   description: ""
   name: Maxed Champions Tunic
-  url: ""
-  version: 0.1.0
+  url: "https://github.com/cobchamp/botwce_maxed_champions_tunic"
+  version: 1.0.0
 _route:
   - Plateau:
       - __use__ Plateau
