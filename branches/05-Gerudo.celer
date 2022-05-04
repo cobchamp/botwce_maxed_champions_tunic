@@ -1,0 +1,14 @@
+Gerudo:
+- _Warp::Shrine::KehNamut:
+    split-type: None
+- +.loc(BLSS to Gerudo Great Fairy Fountain):
+    split-type: UserDefined
+    icon: npc
+    line-color: blue
+    coord: [-4870.94, 122.72, 3825.82]
+    var-change:
+      SilentPrincess: +2
+      Rupee: -1000
+    comment: Pay 1000 Rupees
+    notes: Collect 2/.v(SilentPrincess) Silent Pricesses; .v(Rupee) Rupees
+- __use__ CheckSilentPrincess

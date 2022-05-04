@@ -1,0 +1,47 @@
+Satori Mountain: 
+- +.loc(BLSS to Satori Mushrooms):
+    icon: material
+    line-color: red
+    coord: [-2214.89, 267.91, 804.48]
+    var-change:
+      StamellaShrooms: +1
+      HylianShrooms: +6
+      Sunshrooms: +5
+    notes: Collect 1/.v(StamellaShrooms) Stamella Shrooms; .v(HylianShrooms) Hylian Shrooms; .v(Sunshrooms) Sunshrooms
+- Climb up a bit
+- .dir(NW) to Forest Dweller's Bow
+- +_Chest<Forest Dweller's Bow>:
+    icon: bow
+    coord: [-2342.64, 348.37, 680.81]
+    var-change:
+      MultishotBow: +1
+- +.dir(E) to Diamond:
+    coord: [-2247.90, 353.39, 662.05]
+    var-change:
+      Diamond: +1
+    notes: Collect .v(Diamond) Diamond
+- +.loc(WB .dir(N) Satori Durians):
+    icon: material
+    coord: [-2192.70, 410.24, 434.80]
+    var-change:
+      Wood: +6
+      Durian: +10
+    notes: Collect .v(Wood) Wood; .v(Durian) Durians
+- +.loc(WB .dir(NW) LoTM Pond):
+    icon: material
+    coord: [ -2290.55, 451.19, 351.13]
+    var-change:
+      SilentPrincess: +4
+    notes: Collect 4/.v(SilentPrincess) Silent Pricesses
+- WB .dir(S) toward shrinPlateaue:
+    var-change:
+      SilentPrincess: +4
+    notes: Collect 4/.v(SilentPrincess) Silent Pricesses
+- +_Shrine::MoggLatan:
+    split-type: None
+    var-change:
+      MultishotBow: +1
+    comment: Forest Dweller's Bow inside
+- _Warp::Shrine::MoggLatan:
+    split-type: Shrine
+- __use__ CheckSilentPrincess

@@ -1,0 +1,21 @@
+---
+_project:
+  authors:
+    - CobChamp
+  description: ""
+  name: Maxed Champions Tunic
+  url: ""
+  version: 0.1.0
+_route:
+  - Plateau:
+      - __use__ Plateau
+  - Satori Mountain:
+      - __use__ Satori Mountain
+  - Hateno:
+      - __use__ Hateno
+  - Tabantha:
+      - __use__ Tabantha
+  - Gerudo:
+      - __use__ Gerudo
+  - Kakariko:
+      - __use__ Kakariko
