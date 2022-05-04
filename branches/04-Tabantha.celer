@@ -1,36 +1,34 @@
 Tabantha:
 - _Warp::Shrine::TalohNaeg:
     split-type: None
-- +_Npc::SheikaFemale<Impa 2>:
+- _Npc::SheikaFemale<Impa 2>:
     line-color: yellow
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest 
 - _Warp::Shrine::MoggLatan:
     split-type: None
-- .loc(BLSS to Tabantha Great Fairy Fountain):
-    split-type: UserDefined
+- BLSS to Tabantha Great Fairy Fountain
+- _Material<Silent Princess, +2>
+- _Material<Mighty Thistle, +2>
+- _Npc<Tabantha Great Fairy Fountain>:
+    coord: [-3541.00, 294.88, -745.00]
     icon: npc
     line-color: green
-    coord: [-3541.00, 294.88, -745.00]
-    var-change:
-      SilentPrincess: +2
-      MightyThistle: +3
-      Rupee: -500
+    split-type: UserDefined
     comment: Pay 500 Rupees
-    notes: Collect 2/.v(SilentPrincess) Silent Pricesses; .v(MightyThistle) Mighty Thistles; .v(Rupee) Rupees
+    var-change:
+      Rupees: -500
+    notes: .v(Rupees) Rupees
 - WB .dir(S) to Silver Rupee Chest:
     notes: Set campfire here for first Dinraal farm
-- +_Chest<Silver Rupee>:
+- _Chest<Silver Rupee>:
     coord: [-3551.49, 317.35, -594.23]
     var-change:
-      Rupee: +100
-    notes: .v(Rupee) Rupees
+      Rupees: +100
+    notes: .v(Rupees) Rupees
 - WB .dir(S) to Memory
-- +Collect Ancient Pillars Memory:
-    icon: memory
-    coord: [-3501.04, 383.73, -421.26]
-- .npc(Dinraal):
-    split-type: UserDefined
+- _Memory::AncientColumns
+- _Material<Dinraal Horn, +1>:
     icon: make-morning
     coord: [-3288.21, 280.05, -1058.84]
     var-change:
@@ -38,5 +36,5 @@ Tabantha:
       Wood: -2
       Arrow: -2
       DinraalHorn: +1
-    notes: Farm Dinraal twice (ignore 1st part) for .v(DinraalHorn) Dinraal Horn
-- __use__ CheckSilentPrincess
+    split-type: UserDefined
+    notes: Farm Dinraal twice (ignore 1st part) for 1 Dinraal Horn

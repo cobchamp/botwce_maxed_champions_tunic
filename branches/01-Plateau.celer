@@ -4,8 +4,6 @@ Plateau:
     coord: [-952.34, 238.33, 1959.44]
 - _Equipment::Weapon<Boko Spear>:
     coord: [-943.32, 238.76, 1952.53]
-    var-change:
-      Weapons: +1
 - _Chest<Traveller's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 - 5 Arrows:
@@ -15,7 +13,7 @@ Plateau:
 - _Shrine::JaBaij
 
 - BLSS to tower
-- +_Tower::GreatPlateau:
+- _Tower::GreatPlateau:
     split-type: None
 
 - WB over barrier to mag
@@ -25,19 +23,15 @@ Plateau:
 
 - BLSS to Old Man's Hut:
     coord: [-786.13, 193.19, 2266.93]
-- +.loc(Old Man's Hut):
-    icon: material
-    var-change:
-      StamellaShrooms: +5
-      Apple: +2
-    notes: Collect .v(StamellaShrooms) Stamella Shrooms; .v(Apple) Apples
+- _Material<Stamella Shrooms, +5>
+- _Material<Apple, +2>
 - WB from tree
 - _Shrine::OwaDaim:
     comment: Hammer inside
-    var-change:
-      Weapons: +1
 
-- Boulder + BTB to cryo
+- Boulder + BTB to cryo:
+    var-change:
+      Arrow: -1
 - _Shrine::KehNamut
 
 - BLSS to ToT
@@ -45,4 +39,3 @@ Plateau:
     split-type: UserDefined
     icon: king
     coord: [-812, 1966.1012189378007]
-- __use__ CheckSilentPrincess

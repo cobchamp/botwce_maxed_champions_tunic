@@ -1,11 +1,11 @@
 Kakariko:
 - _Warp::Shrine::TalohNaeg:
     split-type: None
-- +_Npc::SheikaFemale<Impa 3>:
+- _Npc::SheikaFemale<Impa 3>:
     line-color: purple
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to collect Champion's Tunic
-- +_Shop<Enter Armor Shop>:
+- _Shop<Enter Armor Shop>:
     coord: [1856.15, 224.58, 984.71]
 - .npc(Transmutate)
 - Drop 1 Farosh Horn
@@ -13,7 +13,7 @@ Kakariko:
 - Drop 1 Dinraal Horn
 - Drop 1 Diamond
 - Transmute Horns and Diamonds:
-    notes: From 2 Sunshroom, 2 Wood, 2 Apple, 3 Mighty Thistles
+    notes: Hold Smuggle 1 Sunshroom, 1 Wood, 1 Apple, 2 Mighty Thistles, Sell remaining of each
     var-change:
       Sunshrooms: -2
       Wood: -2
@@ -23,30 +23,33 @@ Kakariko:
       NaydraHorn: +1
       DinraalHorn: +1
       Diamond: +2
-- Pick up Diamonds first, then horns before unholding
+- Pick up Diamond first, then horns before unholding
 - .npc(Transmutate)
 - Drop 3 Diamonds
 - Transmute 5 Diamonds:
-    notes: From 6 Blue Nightshade
+    notes: Hold Smuggle 5 Blue Nightshade, Sell 1, Pick up Diamond(s)
     var-change:
       BlueNightshade: -6
       Diamond: +5
 - Sell 8 Diamonds:
     var-change:
       Diamond: -8
-      Rupee: 4000
-    notes: .v(Rupee) Rupees
-- +.loc(WB .dir(NE) to Kakriko Great Fairy Fountain):
-    split-type: UserDefined
+      Rupees: 4000
+    notes: .v(Rupees) Rupees
+
+- WB .dir(NE) to Kakariko Great Fairy Fountain
+- _Material<Silent Princess, +3>
+- _Npc<Kakariko Great Fairy Fountain>:
+    coord: [-3541.00, 294.88, -745.00]
     icon: npc
     line-color: green
-    coord: [1976.00, 265.00, 845.00]
-    var-change:
-      SilentPrincess: +3
-      Rupee: -10000
+    split-type: UserDefined
     comment: Pay 10000 Rupees
-    notes: Collect 3/.v(SilentPrincess) Silent Pricesses; .v(Rupee) Rupees
-- Upgrade Champion's Tunic:
+    var-change:
+      Rupees: -10000
+- Maxed Champion's Tunic:
     split-type: UserDefined
     icon: link
-- .v(SilentPrincess)/19 Silent Pricesses; .v(FaroshHorn)/2 Farosh Horns; .v(NaydraHorn)/2 Naydra Horns; .v(DinraalHorn)/2 Dinraal Horns
+    notes: Fully Upgrade Champion's Tunic
+- Check Totals:
+    notes: .v(Rupees) Rupees; .v(SilentPrincess)/19 Silent Princesses; .v(FaroshHorn)/2 Farosh Horns; .v(NaydraHorn)/2 Naydra Horns; .v(DinraalHorn)/2 Dinraal Horns

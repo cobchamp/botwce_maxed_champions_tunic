@@ -1,89 +1,88 @@
 Hateno:
-- +.loc(BLSS to Lizalfos skull camp):
+- BLSS to Lizalfos skull camp:
     icon: chest
     line-color: orange
     coord: [1292.25, 135.71, 655.77]
+- _Chest<5x Shock Arrows>:
     var-change:
-      ShockArrows: +5
       Arrow: -3
-    notes: Collect .v(ShockArrows) Shock Arrows; Phrenic Bow
-    comment: Murder with Forest Dweller's Bow and open Locked Enemy Chest
+    notes: Murder with Forest Dweller's Bow, Collect Phrenic Bow
+    comment: Locked Enemy Chest
 - WB chain into Kakariko
-- +_Npc::SheikaFemale<Impa 1>:
+- _Npc::SheikaFemale<Impa 1>:
     split-type: UserDefined
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa twice to advance the locked memories main quest
-- .loc(Around Kakariko):
+- .loc(Around Kakariko)
+- _Material<Apple, +4>
+- _Cook<Level-2 Cold Resist>:
+    comment: 3 Sunshrooms
     var-change:
-      Apple: +4
-    notes: 4/.v(Apple) Apples
-- _Cook<Cook>:
-    comment: Level-2 Cold Resist (3 Sunshrooms); 2 Hearty Meals
+      Sunshrooms: -3
+- _Cook<2 Hearty Meals>:
+    comment: 2 Hearty Meals
     var-change:
       Durian: -10
-      Sunshrooms: -3
-- +_Shop<Enter General Store>:
+- _Shop<Enter General Store>:
     coord: [1830.49, 222.41, 1044.89]
 - .npc(Transmutate)
 - Drop 1 Diamond
 - Transmute 5 Diamonds:
-    notes: From 6 Hylian Shrooms
+    notes: Hold Smuggle 5 Hylian Shrooms, Sell 1, Pick up Diamond(s)
     var-change:
       HylianShrooms: -6
       Diamond: +5
 - Sell 1 Diamond and 1 Ruby:
     var-change:
       Diamond: -1
-      Rupee: 710
-    notes: .v(Rupee) Rupees
+      Rupees: 710
+    notes: .v(Rupees) Rupees
 - .npc(Transmutate)
 - Drop 5 Diamonds
 - Transmute 5 Diamonds:
-    notes: From 6 Apples
+    notes: Hold Smuggle 5 Apples, Sell 1, Pick up Diamond(s)
     var-change:
       Apple: -6
       Diamond: +5
 - .npc(Transmutate)
 - Drop 10 Diamonds
 - Transmute 5 Diamonds:
-    notes: From 6 Stamella Shrooms
+    notes: Hold Smuggle 5 Stamella Shrooms, Sell 1, Pick up Diamond(s)
     var-change:
       StamellaShrooms: -6
       Diamond: +5
 - Sell 14 (of 15 total) Diamonds:
     var-change:
       Diamond: -14
-      Rupee: 7000
-    notes: .v(Rupee) Rupees
+      Rupees: 7000
+    notes: .v(Rupees) Rupees
 - Buy 10 Fire + 10 Normal Arrows:
     var-change:
-      Rupee: -200
+      Rupees: -200
       FireArrow: 10
       Arrow: 10
-    notes: .v(Rupee) Rupees
+    notes: .v(Rupees) Rupees
 - WB .dir(N) to shrine
 - _Shrine::TalohNaeg:
     icon: shrine
     comment: Activate
-- +.loc(WB .dir(N) Kakariko Stump):
+- WB .dir(N) Kakariko Stump:
     icon: material
     coord: [1872.33, 344.20, 815.26]
-    var-change:
-      SilentPrincess: +1
-      BlueNightshade: +6
-    notes: Collect 1/.v(SilentPrincess) Silent Pricesses; .v(BlueNightshade) Blue Nightshade
-- +.loc(BLSS to Faron / Riola Spring)
-- .npc(Farosh):
-    split-type: UserDefined
+- _Material<Silent Princess, +1>
+- _Material<Blue Nightshade, +6>
+- BLSS to Faron / Riola Spring
+- _Material<Farosh Horn, +1>:
     icon: make-morning
     coord: [1771.42, 383.48, 2828.23]
     var-change:
+      FaroshHorn: +1
       FireArrow: -1
       Wood: -1
       Arrow: -2
-      FaroshHorn: +1
-    notes: Farm Farosh for .v(FaroshHorn) Farosh Horn
-- +.loc(BLSS to Hateno Blue Flame):
+    split-type: UserDefined
+    notes: Farm Farosh twice (ignore 1st part) for 1 Farosh Horn
+- BLSS to Hateno Blue Flame:
     coord: [3441.61, 255.67, 1972.58]
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
@@ -93,14 +92,13 @@ Hateno:
     icon: camera-elite
 - Eat cold resist meal
 - WB chain to Naydra
-- .npc(Free Naydra):
+- _Npc<Free Naydra>:
     split-type: UserDefined
     icon: npc
     coord: [3932.05, 590.00, 1348.20]
     var-change:
       Arrow: -5
-- .npc(Naydra):
-    split-type: UserDefined
+- _Material<Naydra Horn, +1>:
     icon: make-morning
     coord: [3946.75, 572.91, 1253.39]
     var-change:
@@ -108,14 +106,15 @@ Hateno:
       Wood: -1
       Arrow: -1
       NaydraHorn: +1
-    notes: Farm Naydra for .v(NaydraHorn) Naydra Horn
-- .loc(BLSS to Akkala Great Fairy Fountain):
     split-type: UserDefined
+    notes: Farm Naydra for 1 Naydra Horn
+- BLSS to Akkala Great Fairy Fountain
+- _Material<Silent Princess, +3>
+- _Npc<Akkala Great Fairy Fountain>:
     icon: npc
     coord: [4110.77, 271.69, -1377.55]
+    split-type: UserDefined
     comment: Pay 100 Rupees
     var-change:
-      SilentPrincess: +3
       Rupees: -100
-    notes: Collect 3/.v(SilentPrincess) Silent Pricesses; .v(Rupee) Rupees
-- __use__ CheckSilentPrincess
+    notes: .v(Rupees) Rupees
