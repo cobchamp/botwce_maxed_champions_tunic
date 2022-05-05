@@ -74,7 +74,11 @@ Hateno:
 - BLSS to Faron / Riola Spring
 - _Material<Farosh Horn, +1>:
     icon: make-morning
-    coord: [1771.42, 383.48, 2828.23]
+    movements:
+      - to: [1771.42, 383.48, 2828.23] # campfire loc
+      - to: [1788.29, 2946.85] # Approx arrow shot
+        away: true
+      - to: [1741.70, 349.65, 3006.19] # DragonDropItemTarget
     var-change:
       FaroshHorn: +1
       FireArrow: -1
@@ -100,7 +104,11 @@ Hateno:
       Arrow: -5
 - _Material<Naydra Horn, +1>:
     icon: make-morning
-    coord: [3946.75, 572.91, 1253.39]
+    movements: 
+      - to: [3946.75, 572.91, 1253.39] # Approx? campfire loc
+      - to: [4321.30, 1095.50] # Approx arrow shot
+        away: true
+      - to: [4008.60, 447.48, 1105.90] # DragonDropItemTarget
     var-change:
       FireArrow: -1
       Wood: -1

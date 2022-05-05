@@ -31,7 +31,13 @@ Tabantha:
 - _Memory::AncientColumns
 - _Material<Dinraal Horn, +1>:
     icon: make-morning
-    coord: [-3288.21, 280.05, -1058.84]
+    movements:
+      - to: [-3094.95, -915.43] # Approx first arrow shot
+        away: true
+      - to: [-3288.21, 280.05, -1058.84] # campfire loc
+      - to: [-2735.45, -1504.71] # Approx second arrow shot
+        away: true
+      - to: [-2841.11, 198.48, -1627.38] # DragonDropItemTarget
     var-change:
       FireArrow: -2
       Wood: -2
