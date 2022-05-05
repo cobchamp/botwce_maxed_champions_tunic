@@ -7,6 +7,11 @@ _project:
   url: "https://github.com/cobchamp/botwce_maxed_champions_tunic"
   version: 1.0.0
 _route:
+  - "(?=) Requirements:"
+  - "(==) Rupees: 11,600 rupees (unlock fountains) + 200 rupees (fire arrows + arrows) = 11,800 rupees" 
+  - "(==) Upgrade Materials: 19 silent princesses, 2 horn shards for each dragon (1 of each will be transmuted)"
+  - "(==) Champion's Tunic: Camera rune, One memory (Ancient Pillars)"
+  - "(==) 4 fairy fountains"
   - Plateau:
       - __use__ Plateau
   - Satori Mountain:

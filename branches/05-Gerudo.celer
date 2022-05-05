@@ -2,7 +2,8 @@ Gerudo:
 - _Warp::Shrine::KehNamut:
     split-type: None
 - BLSS to Gerudo Great Fairy Fountain
-- _Material<Silent Princess, +2>
+- _Material<Silent Princess, +2>:
+    coord: [-4867.08, 122.88, 3838.09]
 - _Npc<Gerudo Great Fairy Fountain>:
     coord: [-4870.94, 122.72, 3825.82]
     icon: npc

@@ -16,17 +16,18 @@ Satori Mountain:
 - .dir(E) to Diamond:
     coord: [-2247.90, 353.39, 662.05]
 - _Material<Diamond, +1>
-- WB .dir(N) Satori Durians:
-    icon: material
+- WB .dir(N) Satori Durians
+- _Material<Durian, +10>:
     coord: [-2192.70, 410.24, 434.80]
 - _Material<Wood, +6>
-- _Material<Durians, +10>
-- WB .dir(NW) LoTM Pond:
-    icon: material
-    coord: [ -2290.55, 451.19, 351.13]
-- _Material<Silent Princess, +4>
+- WB .dir(NW) LoTM Pond
+- _Material<Silent Princess, +4>:
+    coord: [-2290.55, 451.19, 351.13]
 - WB .dir(S) toward shrine
-- _Material<Silent Princess, +4>
+- _Material<Silent Princess, +4>:
+    movements:
+      - to: [-2335.41, 446.25, 452.94]
+      - to: [-2337.63, 440.84, 481.03]
 - _Shrine::MoggLatan:
     split-type: None
     var-change:

@@ -39,7 +39,8 @@ Kakariko:
     notes: .v(Rupees) Rupees
 
 - WB .dir(NE) to Kakariko Great Fairy Fountain
-- _Material<Silent Princess, +3>
+- _Material<Silent Princess, +3>:
+    coord: [1995.75, 267.90, 842.24]
 - _Npc<Kakariko Great Fairy Fountain>:
     coord: [1976.00, 265.00, 845.00]
     icon: npc

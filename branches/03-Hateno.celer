@@ -14,16 +14,20 @@ Hateno:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa twice to advance the locked memories main quest
 - .loc(Around Kakariko)
-- _Material<Apple, +4>
-- _Cook<Level-2 Cold Resist>:
+- _Material<Apple, +4>:
+    coord: [1807.03, 220.45, 992.20]
+    comment: at Korok statues (.v(Apple))
+- _Cook<Cook Level-2 Cold Resist>:
+    coord: [1800.25, 219.63, 1012.57]
     comment: 3 Sunshrooms
     var-change:
       Sunshrooms: -3
-- _Cook<2 Hearty Meals>:
-    comment: 2 Hearty Meals
+- _Cook<Cook Hearty Meals>:
+    comment: Remaining Durians
+    notes: Meals of 4-5 Durians each will be sufficient
     var-change:
       Durian: -10
-- _Shop<Enter General Store>:
+- _Shop<General Store>:
     coord: [1830.49, 222.41, 1044.89]
 - .npc(Transmutate)
 - Drop 1 Diamond
@@ -66,15 +70,15 @@ Hateno:
 - _Shrine::TalohNaeg:
     icon: shrine
     comment: Activate
-- WB .dir(N) Kakariko Stump:
-    icon: material
+- WB .dir(N) Kakariko Stump
+- _Material<Silent Princess, +1>:
+    coord: [1846.14, 327.67, 820.96]
+- _Material<Blue Nightshade, +6>:
     coord: [1872.33, 344.20, 815.26]
-- _Material<Silent Princess, +1>
-- _Material<Blue Nightshade, +6>
 - BLSS to Faron / Riola Spring
 - _Material<Farosh Horn, +1>:
-    icon: make-morning
     movements:
+      - to: [1627.25,2716.89] # landing spot
       - to: [1771.42, 383.48, 2828.23] # campfire loc
       - to: [1788.29, 2946.85] # Approx arrow shot
         away: true
@@ -99,11 +103,17 @@ Hateno:
 - _Npc<Free Naydra>:
     split-type: UserDefined
     icon: npc
-    coord: [3932.05, 590.00, 1348.20]
+    movements: 
+      - to: [3932.05, 590.00, 1348.20]
+      # Free Naydra movements overkill
+      # - to: [3848.40, 639.17, 1310.30]
+      # - to: [3895.75, 467.59, 1686.73]
+      # - to: [3422.08, 266.17, 1339.21]
+      # - to: [3932.05, 590.00, 1348.20]
+      #   warp: true
     var-change:
       Arrow: -5
 - _Material<Naydra Horn, +1>:
-    icon: make-morning
     movements: 
       - to: [3946.75, 572.91, 1253.39] # Approx? campfire loc
       - to: [4321.30, 1095.50] # Approx arrow shot
@@ -117,7 +127,8 @@ Hateno:
     split-type: UserDefined
     notes: Farm Naydra for 1 Naydra Horn
 - BLSS to Akkala Great Fairy Fountain
-- _Material<Silent Princess, +3>
+- _Material<Silent Princess, +3>:
+    coord: [4136.89, 274.97, -1401.48]
 - _Npc<Akkala Great Fairy Fountain>:
     icon: npc
     coord: [4110.77, 271.69, -1377.55]
