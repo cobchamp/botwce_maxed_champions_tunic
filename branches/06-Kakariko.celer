@@ -41,9 +41,8 @@ Kakariko:
 - WB .dir(NE) to Kakariko Great Fairy Fountain
 - _Material<Silent Princess, +3>
 - _Npc<Kakariko Great Fairy Fountain>:
-    coord: [-3541.00, 294.88, -745.00]
+    coord: [1976.00, 265.00, 845.00]
     icon: npc
-    line-color: green
     split-type: UserDefined
     comment: Pay 10000 Rupees
     var-change:
@@ -52,5 +51,4 @@ Kakariko:
     split-type: UserDefined
     icon: link
     notes: Fully Upgrade Champion's Tunic
-- Check Totals:
-    notes: .v(Rupees) Rupees; .v(SilentPrincess)/19 Silent Princesses; .v(FaroshHorn)/2 Farosh Horns; .v(NaydraHorn)/2 Naydra Horns; .v(DinraalHorn)/2 Dinraal Horns
+- (!=) .v(Rupees) Rupees; .v(SilentPrincess)/19 Silent Princesses; .v(FaroshHorn)/2 Farosh Horns; .v(NaydraHorn)/2 Naydra Horns; .v(DinraalHorn)/2 Dinraal Horns
