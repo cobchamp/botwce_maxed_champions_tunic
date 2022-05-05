@@ -24,6 +24,7 @@ Kakariko:
       DinraalHorn: +1
       Diamond: +2
 - Pick up Diamond first, then horns before unholding
+- (^=) .!!(If you've sorted your inventory...) The position of the Mighty Thistles in your menu will impact the item that gets transmuted during the second to last cycle of transmutation. Ideally, the last item in your menu is the Mighty Thistle, and the first item you pick up after selling is the Diamond. The stacking of these items are applied in reverse order from how they appear in the menu to the order you pick up. If you’ve accidentally sorted, the order of these items will be Apple, Sunshroom, Thistle, Wood; so the 2nd item you pick up should be the Diamond since Mighty Thistle was in the 3rd position instead of the last. 
 - .npc(Transmutate)
 - Drop 3 Diamonds
 - Transmute 5 Diamonds:

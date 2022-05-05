@@ -10,6 +10,7 @@ Tabantha:
 - BLSS to Tabantha Great Fairy Fountain
 - _Material<Silent Princess, +2>
 - _Material<Mighty Thistle, +2>
+- (^=) From this point on, ensure you do not .!!(sort your inventory) (Pressing Y with materials open). If you do accidentally sort, see note during next transmutation.
 - _Npc<Tabantha Great Fairy Fountain>:
     coord: [-3541.00, 294.88, -745.00]
     icon: npc
