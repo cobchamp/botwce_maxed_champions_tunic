@@ -32,6 +32,6 @@ Satori Mountain:
     var-change:
       MultishotBow: +1
       Rupees: 300
-    comment: Forest Dweller's Bow inside
-- _Warp::Shrine::MoggLatan:
+    comment: Gold Rupee and Forest Dweller's Bow inside
+- _Warp::Shrine::KehNamut:
     split-type: Shrine

@@ -3,7 +3,7 @@ Hateno:
     split-type: None
 - _Chest<Phrenic Bow>:
     coord: [1720.91, 323.75, 996.82]
-    line-color: orange
+    line-color: yellow
 - _Npc::SheikaFemale<Impa 1>:
     split-type: UserDefined
     coord: [1772.71, 229.43, 984.31]

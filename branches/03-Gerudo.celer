@@ -1,6 +1,7 @@
 Gerudo:
-- BLSS to Gerudo Great Fairy Fountain
+- BLSS to Gerudo
 - _Chest<5x Shock Arrows>:
+    line-color: orange
     coord: [-4044.34, 149.59, 2715.55]
 - BLSS to fountain
 - _Material<Silent Princess, +2>:

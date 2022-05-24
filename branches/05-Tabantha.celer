@@ -1,13 +1,13 @@
 Tabantha:
 - _Warp::Shrine::TalohNaeg:
-    line-color: yellow
+    line-color: green
     split-type: None
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest 
 - _Warp::Shrine::MoggLatan:
     split-type: None
-    line-color: green
+    line-color: blue
 - BLSS to Tabantha Great Fairy Fountain
 - _Material<Silent Princess, +2>:
     coord: [-3528.98, 292.37, -739.48]
