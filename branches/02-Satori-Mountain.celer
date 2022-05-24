@@ -3,7 +3,6 @@ Satori Mountain:
     icon: material
     line-color: red
     coord: [-2214.89, 267.91, 804.48]
-- _Material<Stamella Shrooms, +1>
 - _Material<Hylian Shrooms, +6>
 - _Material<Sunshrooms, +6>
 - Climb up a bit
@@ -32,6 +31,7 @@ Satori Mountain:
     split-type: None
     var-change:
       MultishotBow: +1
+      Rupees: 300
     comment: Forest Dweller's Bow inside
 - _Warp::Shrine::MoggLatan:
     split-type: Shrine

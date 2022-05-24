@@ -19,9 +19,9 @@ Tabantha:
     split-type: UserDefined
     comment: Pay 500 Rupees
     var-change:
-      Rupees: -500
+      Rupees: -1000
     notes: .v(Rupees) Rupees
-- WB .dir(S) to Silver Rupee Chest
+- WB .dir(S) to set campfire
 - _Tod::Morning:
     text: Set Campfire
     coord: [-3558.75,-589.64]
@@ -29,11 +29,6 @@ Tabantha:
       FireArrow: -1
       Wood: -1
     notes: Set campfire here for first Dinraal farm
-- _Chest<Silver Rupee>:
-    coord: [-3551.49, 317.35, -594.23]
-    var-change:
-      Rupees: +100
-    notes: .v(Rupees) Rupees
 - WB .dir(S) to Memory
 - _Memory::AncientColumns
 - _Material<Dinraal Horn, +1>:

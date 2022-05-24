@@ -1,22 +1,14 @@
 Hateno:
-- BLSS to Lizalfos skull camp:
-    icon: chest
+- _Warp::Shrine::MoggLatan:
+    split-type: None
+- _Chest<Phrenic Bow>:
+    coord: [1720.91, 323.75, 996.82]
     line-color: orange
-    coord: [1292.25, 135.71, 655.77]
-- _Chest<5x Shock Arrows>:
-    var-change:
-      Arrow: -3
-    notes: Murder with Forest Dweller's Bow, Collect Phrenic Bow
-    comment: Locked Enemy Chest
-- WB chain into Kakariko
 - _Npc::SheikaFemale<Impa 1>:
     split-type: UserDefined
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa twice to advance the locked memories main quest
 - .loc(Around Kakariko)
-- _Material<Apple, +4>:
-    coord: [1807.03, 220.45, 992.20]
-    comment: at Korok statues (.v(Apple))
 - _Cook<Cook Level-2 Cold Resist>:
     coord: [1800.25, 219.63, 1012.57]
     comment: 3 Sunshrooms
@@ -36,24 +28,24 @@ Hateno:
     var-change:
       HylianShrooms: -6
       Diamond: +5
-- Sell 1 Diamond and 1 Ruby:
+- Sell 1 Diamond:
     var-change:
       Diamond: -1
-      Rupees: 710
+      Rupees: 500
     notes: .v(Rupees) Rupees
 - .npc(Transmutate)
 - Drop 5 Diamonds
 - Transmute 5 Diamonds:
-    notes: Hold Smuggle 5 Apples, Sell 1, Pick up Diamond(s)
+    notes: Hold Smuggle 5 Cool Safflina, Sell 1, Pick up Diamond(s)
     var-change:
-      Apple: -6
+      CoolSafflina: -6
       Diamond: +5
 - .npc(Transmutate)
 - Drop 10 Diamonds
 - Transmute 5 Diamonds:
-    notes: Hold Smuggle 5 Stamella Shrooms, Sell 1, Pick up Diamond(s)
+    notes: Hold Smuggle 5 Electric Safflina, Sell 1, Pick up Diamond(s)
     var-change:
-      StamellaShrooms: -6
+      EletricSafflina: -6
       Diamond: +5
 - Sell 14 (of 15 total) Diamonds:
     var-change:
@@ -95,6 +87,7 @@ Hateno:
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
     notes: Weapon smuggle and carry flame with Boko Spear
+- _Material<Apple, 2>
 - Camera Rune:
     split-type: UserDefined
     icon: camera-elite
@@ -135,5 +128,5 @@ Hateno:
     split-type: UserDefined
     comment: Pay 100 Rupees
     var-change:
-      Rupees: -100
+      Rupees: -500
     notes: .v(Rupees) Rupees

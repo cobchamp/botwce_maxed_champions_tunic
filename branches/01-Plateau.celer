@@ -17,14 +17,9 @@ Plateau:
     split-type: None
 
 - WB over barrier to mag
-- _Chest<Ruby>:
-    coord: [-671.65, 171.79, 1522.61]
 - _Shrine::OmanAu
 
-- BLSS to Old Man's Hut:
-    coord: [-786.13, 193.19, 2266.93]
-- _Material<Stamella Shrooms, +5>
-- _Material<Apple, +2>
+- BLSS to tree
 - WB from tree
 - _Shrine::OwaDaim:
     comment: Hammer inside
