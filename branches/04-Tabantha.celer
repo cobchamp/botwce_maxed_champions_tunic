@@ -8,6 +8,7 @@ Tabantha:
 - 2 WBs .dir(N) Kakariko Stump:
     icon: location
     coord: [1871,814.7562947799388]
+- (==) Still need to time comparion to Warping Keh Namut or GP Tower
 - BLSS to Tabantha Great Fairy Fountain
 - _Npc<Tabantha Great Fairy Fountain>:
     coord: [-3541.00, 294.88, -745.00]
