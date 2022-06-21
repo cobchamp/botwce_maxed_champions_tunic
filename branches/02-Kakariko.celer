@@ -59,7 +59,7 @@ Kakariko:
     notes: .v(Rupees) Rupees
 - Buy all bundles Fire Arrows and Arrows:
     var-change:
-      Rupees: 200
+      Rupees: -200
     notes: .v(Rupees) Rupees
 - SAVE
 - Hold smuggle pepper, fairy, wood, silent princess
