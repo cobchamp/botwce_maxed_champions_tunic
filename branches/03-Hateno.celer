@@ -1,80 +1,8 @@
 Hateno:
-- BLSS to Lizalfos skull camp:
-    icon: chest
+- 2 WBs .dir(N) Kakariko Stump:
+    icon: location
     line-color: orange
-    coord: [1292.25, 135.71, 655.77]
-- _Chest<5x Shock Arrows>:
-    var-change:
-      Arrow: -3
-    notes: Murder with Forest Dweller's Bow, Collect Phrenic Bow
-    comment: Locked Enemy Chest
-- WB chain into Kakariko
-- _Npc::SheikaFemale<Impa 1>:
-    split-type: UserDefined
-    coord: [1772.71, 229.43, 984.31]
-    comment: Talk to Impa twice to advance the locked memories main quest
-- .loc(Around Kakariko)
-- _Material<Apple, +4>:
-    coord: [1807.03, 220.45, 992.20]
-    comment: at Korok statues (.v(Apple))
-- _Cook<Cook Level-2 Cold Resist>:
-    coord: [1800.25, 219.63, 1012.57]
-    comment: 3 Sunshrooms
-    var-change:
-      Sunshrooms: -3
-- _Cook<Cook Hearty Meals>:
-    comment: Remaining Durians
-    notes: Meals of 4-5 Durians each will be sufficient
-    var-change:
-      Durian: -10
-- _Shop<General Store>:
-    coord: [1830.49, 222.41, 1044.89]
-- .npc(Transmutate)
-- Drop 1 Diamond
-- Transmute 5 Diamonds:
-    notes: Hold Smuggle 5 Hylian Shrooms, Sell 1, Pick up Diamond(s)
-    var-change:
-      HylianShrooms: -6
-      Diamond: +5
-- Sell 1 Diamond and 1 Ruby:
-    var-change:
-      Diamond: -1
-      Rupees: 710
-    notes: .v(Rupees) Rupees
-- .npc(Transmutate)
-- Drop 5 Diamonds
-- Transmute 5 Diamonds:
-    notes: Hold Smuggle 5 Apples, Sell 1, Pick up Diamond(s)
-    var-change:
-      Apple: -6
-      Diamond: +5
-- .npc(Transmutate)
-- Drop 10 Diamonds
-- Transmute 5 Diamonds:
-    notes: Hold Smuggle 5 Stamella Shrooms, Sell 1, Pick up Diamond(s)
-    var-change:
-      StamellaShrooms: -6
-      Diamond: +5
-- Sell 14 (of 15 total) Diamonds:
-    var-change:
-      Diamond: -14
-      Rupees: 7000
-    notes: .v(Rupees) Rupees
-- Buy 10 Fire + 10 Normal Arrows:
-    var-change:
-      Rupees: -200
-      FireArrow: 10
-      Arrow: 10
-    notes: .v(Rupees) Rupees
-- WB .dir(N) to shrine
-- _Shrine::TalohNaeg:
-    icon: shrine
-    comment: Activate
-- WB .dir(N) Kakariko Stump
-- _Material<Silent Princess, +1>:
-    coord: [1846.14, 327.67, 820.96]
-- _Material<Blue Nightshade, +6>:
-    coord: [1872.33, 344.20, 815.26]
+    coord: [1871,814.7562947799388]
 - BLSS to Faron / Riola Spring
 - _Material<Farosh Horn, +1>:
     movements:
@@ -83,22 +11,21 @@ Hateno:
       - to: [1788.29, 2946.85] # Approx arrow shot
         away: true
       - to: [1741.70, 349.65, 3006.19] # DragonDropItemTarget
-    var-change:
-      FaroshHorn: +1
-      FireArrow: -1
-      Wood: -1
-      Arrow: -2
     split-type: UserDefined
     notes: Farm Farosh twice (ignore 1st part) for 1 Farosh Horn
+- Save and reload, combine duped items:
+    var-change:
+      FaroshHorn: 1
+      SilentPrincess: 12
+    notes: Only need 19 princesses
 - BLSS to Hateno Blue Flame:
     coord: [3441.61, 255.67, 1972.58]
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
-    notes: Weapon smuggle and carry flame with Boko Spear
+    notes: Weapon smuggle and carry flame with Torch
 - Camera Rune:
     split-type: UserDefined
     icon: camera-elite
-- Eat cold resist meal
 - WB chain to Naydra
 - _Npc<Free Naydra>:
     split-type: UserDefined
@@ -111,24 +38,15 @@ Hateno:
       # - to: [3422.08, 266.17, 1339.21]
       # - to: [3932.05, 590.00, 1348.20]
       #   warp: true
-    var-change:
-      Arrow: -5
 - _Material<Naydra Horn, +1>:
     movements: 
-      - to: [3946.75, 572.91, 1253.39] # Approx? campfire loc
+      - to: [3839.375,1305.3741044012286] # Approx? campfire loc
       - to: [4321.30, 1095.50] # Approx arrow shot
         away: true
       - to: [4008.60, 447.48, 1105.90] # DragonDropItemTarget
-    var-change:
-      FireArrow: -1
-      Wood: -1
-      Arrow: -1
-      NaydraHorn: +1
     split-type: UserDefined
     notes: Farm Naydra for 1 Naydra Horn
 - BLSS to Akkala Great Fairy Fountain
-- _Material<Silent Princess, +3>:
-    coord: [4136.89, 274.97, -1401.48]
 - _Npc<Akkala Great Fairy Fountain>:
     icon: npc
     coord: [4110.77, 271.69, -1377.55]

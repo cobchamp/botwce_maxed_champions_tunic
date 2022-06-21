@@ -1,0 +1,20 @@
+Kakariko2:
+- _Warp::Shrine::TalohNaeg:
+    split-type: None
+- _Npc::SheikaFemale<Impa 3>:
+    line-color: purple
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa to collect Champion's Tunic
+- WB .dir(NE) to Kakariko Great Fairy Fountain
+- _Npc<Kakariko Great Fairy Fountain>:
+    coord: [1976.00, 265.00, 845.00]
+    icon: npc
+    split-type: UserDefined
+    comment: Pay 10000 Rupees
+    var-change:
+      Rupees: -10000
+- Maxed Champion's Tunic:
+    split-type: UserDefined
+    icon: link
+    notes: Fully Upgrade Champion's Tunic
+- (!=) .v(Rupees) Rupees; .v(SilentPrincess)/19 Silent Princesses; .v(FaroshHorn)/2 Farosh Horns; .v(NaydraHorn)/2 Naydra Horns; .v(DinraalHorn)/2 Dinraal Horns

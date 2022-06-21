@@ -1,5 +1,7 @@
 Plateau:
 - SOR Clip
+- _Material<Spicy Pepper, 3>:
+    coord: [-964.50, 238.84, 1953.28]
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - _Equipment::Weapon<Boko Spear>:
@@ -17,17 +19,11 @@ Plateau:
     split-type: None
 
 - WB over barrier to mag
-- _Chest<Ruby>:
-    coord: [-671.65, 171.79, 1522.61]
 - _Shrine::OmanAu
 
-- BLSS to Old Man's Hut:
-    coord: [-786.13, 193.19, 2266.93]
-- _Material<Stamella Shrooms, +5>
-- _Material<Apple, +2>
-- WB from tree
+- BLSS + WB from tree
 - _Shrine::OwaDaim:
-    comment: Hammer inside
+    comment: Hammer inside, throw away spear
 
 - Boulder + BTB to cryo:
     var-change:

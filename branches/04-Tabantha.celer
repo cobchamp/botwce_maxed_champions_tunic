@@ -1,18 +1,14 @@
 Tabantha:
 - _Warp::Shrine::TalohNaeg:
-    line-color: yellow
+    line-color: green
     split-type: None
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest 
-- _Warp::Shrine::MoggLatan:
-    split-type: None
-    line-color: green
+- 2 WBs .dir(N) Kakariko Stump:
+    icon: location
+    coord: [1871,814.7562947799388]
 - BLSS to Tabantha Great Fairy Fountain
-- _Material<Silent Princess, +2>:
-    coord: [-3528.98, 292.37, -739.48]
-- _Material<Mighty Thistle, +2>
-- (^=) From this point on, ensure you do not .!!(sort your inventory) (Pressing Y with materials open). If you do accidentally sort, see note during next transmutation.
 - _Npc<Tabantha Great Fairy Fountain>:
     coord: [-3541.00, 294.88, -745.00]
     icon: npc
@@ -21,19 +17,11 @@ Tabantha:
     var-change:
       Rupees: -500
     notes: .v(Rupees) Rupees
-- WB .dir(S) to Silver Rupee Chest
+- WB .dir(S) to campfire location
 - _Tod::Morning:
     text: Set Campfire
     coord: [-3558.75,-589.64]
-    var-change:
-      FireArrow: -1
-      Wood: -1
     notes: Set campfire here for first Dinraal farm
-- _Chest<Silver Rupee>:
-    coord: [-3551.49, 317.35, -594.23]
-    var-change:
-      Rupees: +100
-    notes: .v(Rupees) Rupees
 - WB .dir(S) to Memory
 - _Memory::AncientColumns
 - _Material<Dinraal Horn, +1>:
@@ -45,9 +33,10 @@ Tabantha:
         away: true
       - to: [-2841.11, 198.48, -1627.38] # DragonDropItemTarget
     var-change:
-      FireArrow: -1
-      Wood: -1
-      Arrow: -2
       DinraalHorn: +1
     split-type: UserDefined
     notes: Farm Dinraal twice (ignore 1st part) for 1 Dinraal Horn
+- Save and reload, combine duped items:
+    var-change:
+      DinraalHorn: 1
+      NaydraHorn: 1

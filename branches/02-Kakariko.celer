@@ -1,0 +1,79 @@
+Kakariko:
+- BLSS to Kakariko
+- _Npc::SheikaFemale<Impa 1>:
+    line-color: red
+    split-type: UserDefined
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa twice to advance the locked memories main quest
+- _Material<Endura Carrot, 2>:
+    coord: [1977.61, 268.81, 824.60]
+- _Material<Fairy, 2>:
+    coord: [1962.69, 269.17, 845.87]
+- _Material<Wood, 2>:
+    coord: [1990.5,856.61]
+- _Material<Silent Princess, +3>:
+    coord: [1995.75, 267.90, 842.24]
+- WB to shrine:
+    notes: Eat 1 Endura Carrot 
+- _Shrine::TalohNaeg:
+    icon: shrine
+    comment: Activate
+- Glide down
+- _Equipment::Weapon<Torch>:
+    coord: [1894.71, 232.26, 968.54]
+- WB + Midair up to Phrenic Bow:
+    notes: Eat 1 Spicy Pepper
+- Drop bow and, optionally, Pot lid
+- _Equipment::Bow<Phrenic Bow>:
+    coord: [1720.91, 323.75, 996.82]
+- Glide down
+- _Equipment::Shield<Pot Lid>:
+    coord: [1798.63, 219.90, 1011.16]
+    notes: Only needed if first pot lid is damaged below 5
+- _Npc<Goddess Statue>:
+    coord: [1840.12, 218.54, 997.89]
+    comment: Redeem 4 orbs for heart or stamina
+- (==) Ensure inventory is Endura Carrots 2nd position and Wood and Silent Princess in last positions.
+- SAVE GAME
+- Hold smuggle pepper, fairy, wood, silent princess
+- _Warp::Shrine::TalohNaeg:
+    line-color: white
+    split-type: none
+- WB to Arrow Shop
+- _Shop<General Store>:
+    coord: [1830.49, 222.41, 1044.89]
+- Sell pepper, fairy, wood, silent princess
+- Hold and drop Endura Carrot
+- Unequip Shield
+- LOAD FILE:
+    movements: 
+      - to: [1840.12, 218.54, 997.89]
+        warp: true
+    notes: Should have duped shield
+- SAVE AND HARD RESET GAME:
+    notes: Should have 500-999 Endura Carrots
+- _Shop<General Store>:
+    coord: [1830.49, 222.41, 1044.89]
+- Sell 400+ Endura Carrots:
+    var-change:
+      Rupees: 12000
+    notes: .v(Rupees) Rupees
+- Buy all bundles Fire Arrows and Arrows
+- SAVE
+- Hold smuggle pepper, fairy, wood, silent princess
+- _Warp::Shrine::TalohNaeg:
+    line-color: white
+    split-type: none
+- _Shop<Armor Shop>:
+    coord: [1856.15, 224.58, 984.71]
+- Sell pepper, fairy, wood, silent princess
+- Hold and drop Endura Carrot
+- LOAD FILE:
+    movements: 
+      - to: [1830.49, 222.41, 1044.89]
+        warp: true
+    notes: Should have duped wood and silent princess
+- Combine duped items, Save and reload 2x times:
+    var-change:
+      SilentPrincess: +9
+      Wood: +6

@@ -15,13 +15,13 @@ _route:
   - "(==) 4 fairy fountains"
   - Plateau:
       - __use__ Plateau
-  - Satori Mountain:
-      - __use__ Satori Mountain
+  - Kakariko:
+      - __use__ Kakariko
   - Hateno:
       - __use__ Hateno
   - Tabantha:
       - __use__ Tabantha
   - Gerudo:
-      - __use__ Gerudo
+     - __use__ Gerudo
   - Kakariko:
-      - __use__ Kakariko
+      - __use__ Kakariko2
