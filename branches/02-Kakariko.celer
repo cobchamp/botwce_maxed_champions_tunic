@@ -39,7 +39,7 @@ Kakariko:
 - _Warp::Shrine::TalohNaeg:
     line-color: white
     split-type: none
-- WB to Arrow Shop
+- WB to General Store
 - _Shop<General Store>:
     coord: [1830.49, 222.41, 1044.89]
 - Sell pepper, fairy, wood, silent princess
@@ -58,7 +58,10 @@ Kakariko:
     var-change:
       Rupees: 12000
     notes: .v(Rupees) Rupees
-- Buy all bundles Fire Arrows and Arrows
+- Buy all bundles Fire Arrows and Arrows:
+    var-change:
+      Rupees: 200
+    notes: .v(Rupees) Rupees
 - SAVE
 - Hold smuggle pepper, fairy, wood, silent princess
 - _Warp::Shrine::TalohNaeg:
