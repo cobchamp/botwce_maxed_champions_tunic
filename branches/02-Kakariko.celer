@@ -33,6 +33,7 @@ Kakariko:
     coord: [1840.12, 218.54, 997.89]
     comment: Redeem 4 orbs for heart or stamina
 - (==) Ensure inventory is Endura Carrots 2nd position and Wood and Silent Princess in last positions.
+- (==) Weapons=Hammer, Torch; Bows=Phrenic Bow, Arrow; Materials=(see above); Cooked Food=none; Key Items=Slate, Glider;
 - SAVE GAME
 - Hold smuggle pepper, fairy, wood, silent princess
 - _Warp::Shrine::TalohNaeg:
