@@ -20,20 +20,16 @@ Kakariko:
 - Glide down
 - _Equipment::Weapon<Torch>:
     coord: [1894.71, 232.26, 968.54]
-- WB + Midair up to Phrenic Bow:
-    notes: Eat 1 Spicy Pepper
-- Drop bow and, optionally, Pot lid
-- _Equipment::Bow<Phrenic Bow>:
-    coord: [1720.91, 323.75, 996.82]
-- Glide down
+- WB to center of town
 - _Equipment::Shield<Pot Lid>:
     coord: [1798.63, 219.90, 1011.16]
+    comment: Drop current and pick up new
     notes: Only needed if first pot lid is damaged below 5
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]
     comment: Redeem 4 orbs for heart or stamina
 - (==) Ensure inventory is Endura Carrots 2nd position and Wood and Silent Princess in last positions.
-- (==) Weapons=Hammer, Torch; Bows=Phrenic Bow, Arrow; Materials=(see above); Cooked Food=none; Key Items=Slate, Glider;
+- (==) Weapons=Hammer, Torch; Bows=Traveller Bow, Arrow; Materials=(see above); Cooked Food=none; Key Items=Slate, Glider;
 - SAVE GAME
 - Hold smuggle pepper, fairy, wood, silent princess
 - _Warp::Shrine::TalohNaeg:

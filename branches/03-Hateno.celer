@@ -3,11 +3,14 @@ Hateno:
     icon: location
     line-color: orange
     coord: [1871,814.7562947799388]
-- BLSS to Faron / Riola Spring
+- BLSS to Faron / Riola Spring:
+    coord: [1627.25,2716.89] # landing spot
+- _Chest::Bow<Phrenic Bow>:
+    coord: [1777.75,2934.141939611054] # chest 1782.41, 340.07, 2950.61
+    comment: Right-most chest of 3
 - _Material<Farosh Horn, +1>:
     movements:
-      - to: [1627.25,2716.89] # landing spot
-      - to: [1771.42, 383.48, 2828.23] # campfire loc
+      - to: [1732.625,2988.1308853633573] # campfire loc
       - to: [1788.29, 2946.85] # Approx arrow shot
         away: true
       - to: [1741.70, 349.65, 3006.19] # DragonDropItemTarget
