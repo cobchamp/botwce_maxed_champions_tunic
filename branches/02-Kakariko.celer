@@ -2,7 +2,6 @@ Kakariko:
 - BLSS to Kakariko
 - _Npc::SheikaFemale<Impa 1>:
     line-color: red
-    split-type: UserDefined
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa twice to advance the locked memories main quest
 - _Material<Endura Carrot, 2>:
@@ -80,3 +79,6 @@ Kakariko:
     var-change:
       SilentPrincess: +9
       Wood: +6
+- Finished Kakariko Duping:
+    icon: location
+    split-type: UserDefined
