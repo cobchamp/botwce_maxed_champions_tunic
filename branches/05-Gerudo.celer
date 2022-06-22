@@ -5,7 +5,7 @@ Gerudo:
 - _Npc<Gerudo Great Fairy Fountain>:
     coord: [-4870.94, 122.72, 3825.82]
     icon: npc
-    line-color: blue
+    line-color: green
     split-type: UserDefined
     comment: Pay 1000 Rupees
     var-change:

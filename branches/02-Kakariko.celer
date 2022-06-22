@@ -33,7 +33,6 @@ Kakariko:
 - SAVE GAME
 - Hold smuggle pepper, fairy, wood, silent princess
 - _Warp::Shrine::TalohNaeg:
-    line-color: white
     split-type: none
 - WB to General Store
 - _Shop<General Store>:
@@ -46,8 +45,12 @@ Kakariko:
       - to: [1840.12, 218.54, 997.89]
         warp: true
     notes: Should have duped shield
-- SAVE AND HARD RESET GAME:
+- SAVE AND RELOAD:
     notes: Should have 500-999 Endura Carrots
+- Combine duped items, Save and reload 2x times:
+    var-change:
+      SilentPrincess: +3
+      Wood: +2
 - _Shop<General Store>:
     coord: [1830.49, 222.41, 1044.89]
 - Sell 400+ Endura Carrots:
@@ -58,24 +61,6 @@ Kakariko:
     var-change:
       Rupees: -200
     notes: .v(Rupees) Rupees
-- SAVE
-- Hold smuggle pepper, fairy, wood, silent princess
-- _Warp::Shrine::TalohNaeg:
-    line-color: white
-    split-type: none
-- _Shop<Armor Shop>:
-    coord: [1856.15, 224.58, 984.71]
-- Sell pepper, fairy, wood, silent princess
-- Hold and drop Endura Carrot
-- LOAD FILE:
-    movements: 
-      - to: [1830.49, 222.41, 1044.89]
-        warp: true
-    notes: Should have duped wood and silent princess
-- Combine duped items, Save and reload 2x times:
-    var-change:
-      SilentPrincess: +9
-      Wood: +6
 - Finished Kakariko Duping:
     icon: location
     split-type: UserDefined

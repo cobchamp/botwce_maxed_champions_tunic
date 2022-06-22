@@ -1,11 +1,13 @@
 Hateno:
-- 2 WBs .dir(N) Kakariko Stump:
-    icon: location
+- 2 WBs .dir(N) Kakariko Stump
+- _Material<Silent Princess, +1>:
     line-color: orange
-    coord: [1871,814.7562947799388]
+    coord: [1846.14, 327.67, 820.96]
 - BLSS to Faron / Riola Spring:
-    coord: [1627.25,2716.89] # landing spot
-- _Chest::Bow<Phrenic Bow>:
+    movements:
+      - to: [1871,814.7562947799388] # stump
+      - to: [1627.25,2716.89] # landing spot
+- _Chest<Phrenic Bow>:
     coord: [1777.75,2934.141939611054] # chest 1782.41, 340.07, 2950.61
     comment: Right-most chest of 3
 - _Material<Farosh Horn, +1>:
@@ -19,8 +21,7 @@ Hateno:
 - Save and reload, combine duped items:
     var-change:
       FaroshHorn: 1
-      SilentPrincess: 12
-    notes: Only need 19 princesses
+      SilentPrincess: 7
 - BLSS to Hateno Blue Flame:
     coord: [3441.61, 255.67, 1972.58]
 - 2 WBs to Hateno Tech Lab:
@@ -50,6 +51,8 @@ Hateno:
     split-type: UserDefined
     notes: Farm Naydra for 1 Naydra Horn
 - BLSS to Akkala Great Fairy Fountain
+- _Material<Silent Princess, +3>:
+    coord: [4136.89, 274.97, -1401.48]
 - _Npc<Akkala Great Fairy Fountain>:
     icon: npc
     coord: [4110.77, 271.69, -1377.55]

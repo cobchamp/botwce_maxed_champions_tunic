@@ -2,7 +2,7 @@ Kakariko2:
 - _Warp::Shrine::TalohNaeg:
     split-type: None
 - _Npc::SheikaFemale<Impa 3>:
-    line-color: purple
+    line-color: blue
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to collect Champion's Tunic
 - WB .dir(NE) to Kakariko Great Fairy Fountain
