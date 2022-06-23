@@ -46,8 +46,8 @@ Kakariko:
     movements: 
       - to: [1840.12, 218.54, 997.89]
         warp: true
-    notes: Should have duped shield
-- SAVE AND RELOAD:
+    notes: Should have duped shield and carrots
+- SAVE AND RELOAD WITHOUT CLOSING MENU:
     notes: Should have 500-999 Endura Carrots
 - Combine duped items, Save and reload 2x times:
     var-change:
