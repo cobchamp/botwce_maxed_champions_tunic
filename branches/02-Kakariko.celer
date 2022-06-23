@@ -4,6 +4,7 @@ Kakariko:
     line-color: red
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa twice to advance the locked memories main quest
+- WB .dir(NE) to Kakariko Great Fairy Fountain
 - _Material<Endura Carrot, 2>:
     coord: [1977.61, 268.81, 824.60]
 - _Material<Fairy, 2>:
@@ -49,7 +50,7 @@ Kakariko:
     notes: Should have duped shield and carrots
 - SAVE AND RELOAD WITHOUT CLOSING MENU:
     notes: Should have 500-999 Endura Carrots
-- Combine duped items, Save and reload 2x times:
+- Combine duped items:
     var-change:
       SilentPrincess: +3
       Wood: +2
