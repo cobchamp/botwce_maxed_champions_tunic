@@ -16,6 +16,10 @@ Plateau:
 - _Shrine::JaBaij
 
 - BLSS to tower
+- _Equipment::Weapon<Traveler's Sword>:
+    coord: [-596.00, 172.51, 1702.50]
+    comment: 1-handed weapon for hold smuggle
+    notes: Headshot Bokoblin at the tower
 - _Tower::GreatPlateau:
     split-type: None
 

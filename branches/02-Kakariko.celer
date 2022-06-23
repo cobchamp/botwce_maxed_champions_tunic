@@ -14,15 +14,8 @@ Kakariko:
     coord: [1990.5,856.61]
 - _Material<Silent Princess, +3>:
     coord: [1995.75, 267.90, 842.24]
-- WB to shrine:
+- WB to center of town:
     notes: Eat 1 Endura Carrot 
-- _Shrine::TalohNaeg:
-    icon: shrine
-    comment: Activate
-- Glide down
-- _Equipment::Weapon<Torch>:
-    coord: [1894.71, 232.26, 968.54]
-- WB to center of town
 - _Equipment::Shield<Pot Lid>:
     coord: [1798.63, 219.90, 1011.16]
     comment: Drop current and pick up new
@@ -30,22 +23,17 @@ Kakariko:
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]
     comment: Redeem 4 orbs for heart or stamina
+- _Shop<General Store>:
+    coord: [1830.49, 222.41, 1044.89]
 - (==) Ensure inventory is Endura Carrots .!!(1st) position and Wood and Silent Princess in last positions.
 - (==) Weapons=Hammer, Torch; Bows=Traveller Bow, Arrow; Materials=(see above); Cooked Food=none; Key Items=Slate, Glider;
 - SAVE GAME
 - Hold smuggle pepper, fairy, wood, silent princess
-- _Warp::Shrine::TalohNaeg:
-    split-type: none
-- WB to General Store
-- _Shop<General Store>:
-    coord: [1830.49, 222.41, 1044.89]
 - Sell pepper, fairy, wood, silent princess
-- Hold and drop Endura Carrot
-- .!!(Pick carrot back up)
 - Unequip Shield
 - LOAD FILE:
     movements: 
-      - to: [1840.12, 218.54, 997.89]
+      - to: [1830.49, 222.41, 1044.89]
         warp: true
     notes: Should have duped shield and carrots
 - SAVE AND RELOAD WITHOUT CLOSING MENU:
@@ -64,6 +52,6 @@ Kakariko:
     var-change:
       Rupees: -200
     notes: .v(Rupees) Rupees
-- Finished Kakariko Duping:
-    icon: location
-    split-type: UserDefined
+- _Shrine::TalohNaeg:
+    icon: shrine
+    comment: Activate
