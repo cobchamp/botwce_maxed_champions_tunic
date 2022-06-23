@@ -50,7 +50,7 @@ Kakariko:
     notes: Should have duped shield and carrots
 - SAVE AND RELOAD WITHOUT CLOSING MENU:
     notes: Should have 500-999 Endura Carrots
-- Combine duped items:
+- Combine duped Silent Princesses:
     var-change:
       SilentPrincess: +3
       Wood: +2

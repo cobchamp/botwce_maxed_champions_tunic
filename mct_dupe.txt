@@ -1,0 +1,40 @@
+# Kakariko (Diamond = Carrot; Lotus = Blue Nightshade)
+Initialize 2 Weapon 1 Bow 10 NormalArrow 1 Shield 1 Diamond 2 Fairy 2 Lotus 2 Wood 3 SilentPrincess 1 Slate 1 Glider
+Save
+Initialize 2 Weapon 1 Bow 1 NormalArrow 1 Shield 1 Diamond 1 Slate 1 Glider
+Break 4 Slots
+Unequip Shield
+Reload
+Save
+Reload
+Drop 3 SilentPrincess
+Drop 2 Wood
+Pickup 3 SilentPrincess
+Pickup 2 Wood
+Sell 400 Diamond
+Pickup 10 FireArrow
+# Kakariko Stump
+Pickup 1 SilentPrincess
+# Riola Spring
+Pickup 1 Bow
+Pickup 1 FaroshHorn
+Save
+Reload
+Drop 1 FaroshHorn
+Drop 7 SilentPrincess
+Pickup 1 FaroshHorn
+Pickup 7 SilentPrincess
+# Mt Lanayru (Scale = Naydra Horn)
+Pickup 1 FaroshScale
+# Akkala Fairy Fountain
+Pickup 3 SilentPrincess
+# Tabantha Fairy Fountain
+Pickup 2 SilentPrincess
+# Tabantha (Claw = Dinraal Horn)
+Pickup 1 FaroshClaw
+Save
+Reload
+Drop 1 FaroshScale
+Drop 1 FaroshClaw
+Pickup 1 FaroshScale
+Pickup 1 FaroshClaw
