@@ -5,10 +5,8 @@ Tabantha:
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest 
-- 2 WBs .dir(N) Kakariko Stump:
-    icon: location
-    coord: [1871,814.7562947799388]
-- (==) Still need to time comparion to Warping Keh Namut or GP Tower
+- _Warp::Shrine::KehNamut:
+    split-type: None
 - BLSS to Tabantha Great Fairy Fountain
 - _Material<Silent Princess, +2>:
     coord: [-3528.98, 292.37, -739.48]
