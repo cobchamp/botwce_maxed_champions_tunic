@@ -2,6 +2,7 @@ Plateau:
 - SOR Clip
 - _Material<Spicy Pepper, 3>:
     coord: [-964.50, 238.84, 1953.28]
+    notes: optional but must eat before duping in Kakariko
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - _Equipment::Weapon<Boko Spear>:

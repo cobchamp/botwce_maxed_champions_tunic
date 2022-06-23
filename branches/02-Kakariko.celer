@@ -8,6 +8,7 @@ Kakariko:
     coord: [1977.61, 268.81, 824.60]
 - _Material<Fairy, 2>:
     coord: [1962.69, 269.17, 845.87]
+- _Material<Blue Nightshade, 2>
 - _Material<Wood, 2>:
     coord: [1990.5,856.61]
 - _Material<Silent Princess, +3>:
@@ -28,7 +29,7 @@ Kakariko:
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]
     comment: Redeem 4 orbs for heart or stamina
-- (==) Ensure inventory is Endura Carrots 2nd position and Wood and Silent Princess in last positions.
+- (==) Ensure inventory is Endura Carrots .!!(1st) position and Wood and Silent Princess in last positions.
 - (==) Weapons=Hammer, Torch; Bows=Traveller Bow, Arrow; Materials=(see above); Cooked Food=none; Key Items=Slate, Glider;
 - SAVE GAME
 - Hold smuggle pepper, fairy, wood, silent princess
@@ -39,6 +40,7 @@ Kakariko:
     coord: [1830.49, 222.41, 1044.89]
 - Sell pepper, fairy, wood, silent princess
 - Hold and drop Endura Carrot
+- .!!(Pick carrot back up)
 - Unequip Shield
 - LOAD FILE:
     movements: 
