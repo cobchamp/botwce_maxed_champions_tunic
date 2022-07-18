@@ -1,24 +1,36 @@
 Tabantha:
 - _Warp::Shrine::TalohNaeg:
-    line-color: yellow
+    line-color: green
     split-type: None
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest 
 - _Warp::Shrine::KehNamut:
     split-type: None
+<<<<<<< HEAD:branches/04-Tabantha.celer
 - BLSS to Tabantha Great Fairy Fountain
 - _Material<Silent Princess, +2>:
     coord: [-3528.98, 292.37, -739.48]
+=======
+    line-color: blue
+- BLSS to Tabantha Great Fairy Fountain
+- _Material<Silent Princess, +2>:
+    coord: [-3528.98, 292.37, -739.48]
+- _Material<Mighty Thistle, +2>
+>>>>>>> 12f1214561df36dddeecde24c60bd86d89df0698:branches/05-Tabantha.celer
 - _Npc<Tabantha Great Fairy Fountain>:
     coord: [-3541.00, 294.88, -745.00]
     icon: npc
     split-type: UserDefined
     comment: Pay 500 Rupees
     var-change:
-      Rupees: -500
+      Rupees: -1000
     notes: .v(Rupees) Rupees
+<<<<<<< HEAD:branches/04-Tabantha.celer
 - WB .dir(S) to campfire location
+=======
+- WB .dir(S) to set campfire
+>>>>>>> 12f1214561df36dddeecde24c60bd86d89df0698:branches/05-Tabantha.celer
 - _Tod::Morning:
     text: Set Campfire
     coord: [-3558.75,-589.64]

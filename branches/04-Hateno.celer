@@ -1,5 +1,72 @@
 Hateno:
+<<<<<<< HEAD:branches/03-Hateno.celer
 - 2 WBs .dir(N) Kakariko Stump
+=======
+- _Warp::Shrine::MoggLatan:
+    split-type: None
+- _Chest<Phrenic Bow>:
+    coord: [1720.91, 323.75, 996.82]
+    line-color: yellow
+- _Npc::SheikaFemale<Impa 1>:
+    split-type: UserDefined
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa twice to advance the locked memories main quest
+- .loc(Around Kakariko)
+- _Cook<Cook Level-2 Cold Resist>:
+    coord: [1800.25, 219.63, 1012.57]
+    comment: 3 Sunshrooms
+    var-change:
+      Sunshrooms: -3
+- _Cook<Cook Hearty Meals>:
+    comment: Remaining Durians
+    notes: Meals of 4-5 Durians each will be sufficient
+    var-change:
+      Durian: -10
+- _Shop<General Store>:
+    coord: [1830.49, 222.41, 1044.89]
+- .npc(Transmutate)
+- Drop 1 Diamond
+- Transmute 5 Diamonds:
+    notes: Hold Smuggle 5 Hylian Shrooms, Sell 1, Pick up Diamond(s)
+    var-change:
+      HylianShrooms: -6
+      Diamond: +5
+- Sell 1 Diamond:
+    var-change:
+      Diamond: -1
+      Rupees: 500
+    notes: .v(Rupees) Rupees
+- .npc(Transmutate)
+- Drop 5 Diamonds
+- Transmute 5 Diamonds:
+    notes: Hold Smuggle 5 Cool Safflina, Sell 1, Pick up Diamond(s)
+    var-change:
+      CoolSafflina: -6
+      Diamond: +5
+- .npc(Transmutate)
+- Drop 10 Diamonds
+- Transmute 5 Diamonds:
+    notes: Hold Smuggle 5 Electric Safflina, Sell 1, Pick up Diamond(s)
+    var-change:
+      EletricSafflina: -6
+      Diamond: +5
+- Sell 14 (of 15 total) Diamonds:
+    var-change:
+      Diamond: -14
+      Rupees: 7000
+    notes: .v(Rupees) Rupees
+- Buy 10 Fire + 10 Normal Arrows:
+    var-change:
+      Rupees: -200
+      FireArrow: 10
+      Arrow: 10
+    notes: .v(Rupees) Rupees
+- WB .dir(N) to shrine
+- _Shrine::TalohNaeg:
+    icon: shrine
+    comment: Activate
+- WB .dir(N) Kakariko Stump
+>>>>>>> 12f1214561df36dddeecde24c60bd86d89df0698:branches/04-Hateno.celer
 - _Material<Silent Princess, +1>:
     line-color: orange
     coord: [1846.14, 327.67, 820.96]
@@ -26,7 +93,12 @@ Hateno:
     coord: [3441.61, 255.67, 1972.58]
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
+<<<<<<< HEAD:branches/03-Hateno.celer
     notes: Weapon smuggle and carry flame with Torch
+=======
+    notes: Weapon smuggle and carry flame with Boko Spear
+- _Material<Apple, 2>
+>>>>>>> 12f1214561df36dddeecde24c60bd86d89df0698:branches/04-Hateno.celer
 - Camera Rune:
     split-type: UserDefined
     icon: camera-elite
@@ -59,5 +131,5 @@ Hateno:
     split-type: UserDefined
     comment: Pay 100 Rupees
     var-change:
-      Rupees: -100
+      Rupees: -500
     notes: .v(Rupees) Rupees

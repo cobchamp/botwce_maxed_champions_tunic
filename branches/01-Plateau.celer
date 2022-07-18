@@ -26,7 +26,12 @@ Plateau:
 - WB over barrier to mag
 - _Shrine::OmanAu
 
+<<<<<<< HEAD
 - BLSS + WB from tree
+=======
+- BLSS to tree
+- WB from tree
+>>>>>>> 12f1214561df36dddeecde24c60bd86d89df0698
 - _Shrine::OwaDaim:
     comment: Hammer inside, throw away spear
 

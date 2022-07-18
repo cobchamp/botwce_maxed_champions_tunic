@@ -1,0 +1,37 @@
+Satori Mountain: 
+- BLSS to Satori Mushrooms:
+    icon: material
+    line-color: red
+    coord: [-2214.89, 267.91, 804.48]
+- _Material<Hylian Shrooms, +6>
+- _Material<Sunshrooms, +6>
+- Climb up a bit
+- .dir(NW) to Forest Dweller's Bow
+- _Chest<Forest Dweller's Bow>:
+    icon: bow
+    coord: [-2342.64, 348.37, 680.81]
+    var-change:
+      MultishotBow: +1
+- .dir(E) to Diamond:
+    coord: [-2247.90, 353.39, 662.05]
+- _Material<Diamond, +1>
+- WB .dir(N) Satori Durians
+- _Material<Durian, +10>:
+    coord: [-2192.70, 410.24, 434.80]
+- _Material<Wood, +6>
+- WB .dir(NW) LoTM Pond
+- _Material<Silent Princess, +4>:
+    coord: [-2290.55, 451.19, 351.13]
+- WB .dir(S) toward shrine
+- _Material<Silent Princess, +4>:
+    movements:
+      - to: [-2335.41, 446.25, 452.94]
+      - to: [-2337.63, 440.84, 481.03]
+- _Shrine::MoggLatan:
+    split-type: None
+    var-change:
+      MultishotBow: +1
+      Rupees: 300
+    comment: Gold Rupee and Forest Dweller's Bow inside
+- _Warp::Shrine::KehNamut:
+    split-type: Shrine
