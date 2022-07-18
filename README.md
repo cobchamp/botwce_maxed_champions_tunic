@@ -1,1 +1,1 @@
-[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botwce_maxed_champions_tunic/master)
+[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botwce_maxed_champions_tunic)

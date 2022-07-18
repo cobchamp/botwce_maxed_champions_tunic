@@ -13,17 +13,16 @@ _route:
   - "(==) Upgrade Materials: 19 silent princesses, 2 horn shards for each dragon (1 of each will be transmuted)"
   - "(==) Champion's Tunic: Camera rune, One memory (Ancient Pillars)"
   - "(==) 4 fairy fountains"
-  - (?=) .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_maxed_champions_tunic/istg-2022/mct_dupe.txt)
   - Plateau:
       - __use__ Plateau
-  - Satori Mountain:
-      - __use__ Satori Mountain
-  - Gerudo:
-      - __use__ Gerudo
+  - Kakariko:
+      - __use__ Kakariko
   - Hateno:
       - __use__ Hateno
   - Tabantha:
       - __use__ Tabantha
+  - Gerudo:
+     - __use__ Gerudo
   - Kakariko:
       - __use__ Kakariko2
   # Check requirements

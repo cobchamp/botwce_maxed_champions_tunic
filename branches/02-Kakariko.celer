@@ -27,17 +27,8 @@ Kakariko:
     coord: [1830.49, 222.41, 1044.89]
 - (==) Ensure inventory is Endura Carrots .!!(1st) position and Wood and Silent Princess in last positions.
 - (==) Weapons=Hammer, Torch; Bows=Traveller Bow, Arrow; Materials=(see above); Cooked Food=none; Key Items=Slate, Glider;
-- SAVE GAME
-- Hold smuggle pepper, fairy, wood, silent princess
-- Sell pepper, fairy, wood, silent princess
-- Unequip Shield
-- LOAD FILE:
-    movements: 
-      - to: [1830.49, 222.41, 1044.89]
-        warp: true
-    notes: Should have duped shield and carrots
-- SAVE AND RELOAD WITHOUT CLOSING MENU:
-    notes: Should have 500-999 Endura Carrots
+- Do IST:
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_maxed_champions_tunic/main/mct_dupe.txt)
 - Combine duped Silent Princesses:
     var-change:
       SilentPrincess: +3
